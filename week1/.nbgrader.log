@@ -1,0 +1,22 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/shaolin/Documents/teaching/2019/cs2091/material/class/week1
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=d65a5fef6a9288a0319546611d8d004ef991d02baf0ca5c1
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=d65a5fef6a9288a0319546611d8d004ef991d02baf0ca5c1
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook lec01.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 9b0f7255-ac3d-4398-93fb-b726b39706dc
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190119223508 (::1) 17.55ms referer=http://localhost:8888/notebooks/lec01.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9b0f7255-ac3d-4398-93fb-b726b39706dc
+[NotebookApp | INFO] Saving file at /lec01.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook lec01.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 9b0f7255-ac3d-4398-93fb-b726b39706dc

@@ -1,0 +1,47 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/shaolin/Documents/teaching/2019/cs2091/material/class/week1/lab01
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=51701b73a87e8e228bf7bdeb61db30ca0167f264fe91ff6d
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=51701b73a87e8e228bf7bdeb61db30ca0167f264fe91ff6d
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/shaolin/Documents/teaching/2019/cs2091/material/class/week1/lab01
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=f14d3bdfb9de8d819bcd0264789f784e4f0cef40254b2389
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=f14d3bdfb9de8d819bcd0264789f784e4f0cef40254b2389
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook lab01.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: bb4c4a35-4bb5-4fd8-99e4-ecad0c9e5bf0
+[NotebookApp | INFO] 302 GET /notebooks/numberline_1.png (::1) 2.91ms
+[NotebookApp | INFO] 302 GET /notebooks/numberline_0.png (::1) 2.13ms
+[NotebookApp | INFO] 302 GET /notebooks/error.jpg (::1) 1.93ms
+[NotebookApp | INFO] 302 GET /notebooks/map.jpg (::1) 2.00ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190119233810 (::1) 11.78ms referer=http://localhost:8888/notebooks/lab01.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel bb4c4a35-4bb5-4fd8-99e4-ecad0c9e5bf0
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] Saving file at /lab01.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: bb4c4a35-4bb5-4fd8-99e4-ecad0c9e5bf0

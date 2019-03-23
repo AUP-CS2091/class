@@ -1,0 +1,88 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/shaolin/Documents/teaching/2019/cs2091/material/class
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=93b933d69515a1997beaf3770f1f95aa6a1b6500b5995f7a
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=93b933d69515a1997beaf3770f1f95aa6a1b6500b5995f7a
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook week1/lec03.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 15cfa916-0e94-4e96-8856-84f51d98fa13
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190122220404 (::1) 17.47ms referer=http://localhost:8888/notebooks/week1/lec03.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 15cfa916-0e94-4e96-8856-84f51d98fa13
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 15cfa916-0e94-4e96-8856-84f51d98fa13
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/shaolin/Documents/teaching/2019/cs2091/material/class
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=40a587c9bb744b3305df86a15dcff53cc9da69b1a9d0eaf0
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=40a587c9bb744b3305df86a15dcff53cc9da69b1a9d0eaf0
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /api/kernels/15cfa916-0e94-4e96-8856-84f51d98fa13/channels?session_id=F1BA54F9BFC1433C952B7DA1AD5A6DDD (::1): Kernel does not exist: 15cfa916-0e94-4e96-8856-84f51d98fa13
+[NotebookApp | WARNING] 404 GET /api/kernels/15cfa916-0e94-4e96-8856-84f51d98fa13/channels?session_id=F1BA54F9BFC1433C952B7DA1AD5A6DDD (::1) 15.53ms referer=None
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/handlers.py", line 90, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/kernelmanager.py", line 120, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/kernelmanager.py", line 199, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 15cfa916-0e94-4e96-8856-84f51d98fa13)
+[NotebookApp | ERROR] {
+      "Origin": "http://localhost:8888",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36",
+      "Cookie": "_xsrf=2|5a91da62|410e8732df1a373fa2ce1775c88f7952|1547933710; username-localhost-8888=\"2|1:0|10:1548191098|23:username-localhost-8888|44:ZmM0NDI3NjMyMmIxNDgxN2I2OWVlNzY1ZjNhZjlkNTY=|6ca22e9589aae3dcd47d5022e5796f6ff3c47c926be1c19db8dfed4d56146ae7\"",
+      "Accept-Language": "en-GB,en;q=0.9,en-US;q=0.8,fr;q=0.7,he;q=0.6",
+      "X-Requested-With": "XMLHttpRequest",
+      "Host": "localhost:8888",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Length": "0",
+      "X-Xsrftoken": "2|5a91da62|410e8732df1a373fa2ce1775c88f7952|1547933710",
+      "Referer": "http://localhost:8888/notebooks/week1/lec03.ipynb",
+      "Connection": "keep-alive"
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/15cfa916-0e94-4e96-8856-84f51d98fa13/restart (::1) 6.83ms referer=http://localhost:8888/notebooks/week1/lec03.ipynb
+[NotebookApp | WARNING] Session not found: session_id='722bb65d-3e18-4f57-8f44-8e17f0386734'
+[NotebookApp | WARNING] 404 DELETE /api/sessions/722bb65d-3e18-4f57-8f44-8e17f0386734 (::1) 1.02ms referer=http://localhost:8888/notebooks/week1/lec03.ipynb
+[NotebookApp | INFO] Kernel started: 4a8b2608-0aba-4df7-ba3c-5e9798e56d07
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4a8b2608-0aba-4df7-ba3c-5e9798e56d07
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4a8b2608-0aba-4df7-ba3c-5e9798e56d07
+[NotebookApp | INFO] Saving file at /week1/lec03.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 4a8b2608-0aba-4df7-ba3c-5e9798e56d07
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/shaolin/Documents/teaching/2019/cs2091/material/class
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=4a231ba43962bb6425178396b500715be17b1869d5417061
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=4a231ba43962bb6425178396b500715be17b1869d5417061
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] Kernel started: 39dfd512-f3ce-41a9-91a3-8920c5911d0c
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190122222001 (::1) 12.14ms referer=http://localhost:8888/notebooks/week1/lec03.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 39dfd512-f3ce-41a9-91a3-8920c5911d0c
+[NotebookApp | INFO] Saving file at /week1/lec03.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 39dfd512-f3ce-41a9-91a3-8920c5911d0c
